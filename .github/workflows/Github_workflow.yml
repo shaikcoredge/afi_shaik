@@ -8,7 +8,7 @@ on:
 
 jobs:
   docker:
-    runs-on: self-hosted
+    runs-on: ubantu:latest
     steps:
       -
         name: Checkout
